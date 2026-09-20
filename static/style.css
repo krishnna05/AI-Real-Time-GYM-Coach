@@ -1,0 +1,28 @@
+.stApp {
+  background-color: #0A0D14;
+  color: #fff;
+}
+
+[data-testid="stSidebar"] {
+  background-color: #111520;
+}
+
+.block-container,
+.block-container * {
+  font-family: 'AdobeClean', sans-serif !important;
+}
+
+.block-container {
+  padding: 50px 3rem !important;
+  max-width: 750px !important;
+}
+
+button,
+.stButton button,
+.stDownloadButton button,
+.MuiBox-root button {
+  background-color: #181D2A !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 0 !important;
+  font-family: 'AdobeClean', sans-serif !important;
+}
