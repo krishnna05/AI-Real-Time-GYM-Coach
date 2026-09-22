@@ -9,6 +9,8 @@ from services.ui.style_loader import load_css, inject_local_font
 from services.persistence.exercise_repository import init_db
 from streamlit_webrtc import webrtc_streamer, WebRtcMode
 from services.vision.exercise_video_processor import VideoProcessorClass
+from services.tracking.metrics import sync_metrics_update
+from services.persistence.exercise_repository import get_users_exercises
 
 def main():
     st.set_page_config(
